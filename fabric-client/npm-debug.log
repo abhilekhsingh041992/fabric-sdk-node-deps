@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node@6/6.10.0_1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.1.2
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/asingh/go/src/github.com/StableDst/api-server/node_modules/fabric-client',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/asingh/.npm correctMkdir not in flight; initializing
+10 info lifecycle fabric-client@1.0.0-alpha.1~prepublish: fabric-client@1.0.0-alpha.1
+11 silly lifecycle fabric-client@1.0.0-alpha.1~prepublish: no script for prepublish, continuing
+12 info lifecycle fabric-client@1.0.0-alpha.1~prepare: fabric-client@1.0.0-alpha.1
+13 silly lifecycle fabric-client@1.0.0-alpha.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package.tgz',
+14 verbose tar pack   '/Users/asingh/go/src/github.com/StableDst/api-server/node_modules/fabric-client' ]
+15 verbose tarball /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package.tgz
+16 verbose folder /Users/asingh/go/src/github.com/StableDst/api-server/node_modules/fabric-client
+17 verbose addLocalTarball adding from inside cache /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package.tgz
+18 verbose correctMkdir /Users/asingh/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd fabric-client@1.0.0-alpha.1
+20 verbose afterAdd /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/asingh/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package/package.json written
+23 silly publish { _args:
+23 silly publish    [ [ [Object],
+23 silly publish        '/Users/asingh/go/src/github.com/StableDst/api-server' ] ],
+23 silly publish   _from: '.',
+23 silly publish   _id: 'fabric-client@1.0.0-alpha.1',
+23 silly publish   _inCache: true,
+23 silly publish   _location: '/fabric-client',
+23 silly publish   _nodeVersion: '6.9.4',
+23 silly publish   _npmOperationalInternal:
+23 silly publish    { host: 'packages-12-west.internal.npmjs.com',
+23 silly publish      tmp: 'tmp/fabric-client-1.0.0-alpha.1.tgz_1493404868306_0.5466685846913606' },
+23 silly publish   _npmUser: { name: 'jimthematrix', email: 'jim_the_matrix@hotmail.com' },
+23 silly publish   _npmVersion: '3.10.10',
+23 silly publish   _phantomChildren: {},
+23 silly publish   _requested:
+23 silly publish    { raw: 'fabric-client@>=1.0.0-alpha <1.0.0-alpha.10',
+23 silly publish      scope: null,
+23 silly publish      escapedName: 'fabric-client',
+23 silly publish      name: 'fabric-client',
+23 silly publish      rawSpec: '>=1.0.0-alpha <1.0.0-alpha.10',
+23 silly publish      spec: '>=1.0.0-alpha <1.0.0-alpha.10',
+23 silly publish      type: 'range' },
+23 silly publish   _requiredBy: [ '/' ],
+23 silly publish   _resolved: 'https://registry.npmjs.org/fabric-client/-/fabric-client-1.0.0-alpha.1.tgz',
+23 silly publish   _shasum: '7c8aaaef11bacd6194e4ca878f68a7a9eb99ffa8',
+23 silly publish   _shrinkwrap: null,
+23 silly publish   _spec: 'fabric-client@>=1.0.0-alpha <1.0.0-alpha.10',
+23 silly publish   _where: '/Users/asingh/go/src/github.com/StableDst/api-server',
+23 silly publish   dependencies:
+23 silly publish    { 'aes-js': '^1.0.0',
+23 silly publish      asn1: 'git+https://github.com/mcavage/node-asn1.git',
+23 silly publish      asn1js: '^1.2.12',
+23 silly publish      'bn.js': '^4.11.3',
+23 silly publish      callsite: '^1.0.0',
+23 silly publish      crypto: '0.0.3',
+23 silly publish      elliptic: '^6.2.3',
+23 silly publish      events: '^1.1.0',
+23 silly publish      fs: '0.0.2',
+23 silly publish      'fs-extra': '>=0.30.0 <0.31.0',
+23 silly publish      grpc: '>=1.1.2 <1.3.0',
+23 silly publish      hashtable: '^2.0.2',
+23 silly publish      'js-sha3': '^0.5.1',
+23 silly publish      'json-stringify-safe': '^5.0.1',
+23 silly publish      jsrsasign: '6.2.2',
+23 silly publish      jssha: '^2.1.0',
+23 silly publish      klaw: '1.3.1',
+23 silly publish      lodash: '^4.15.0',
+23 silly publish      nconf: '^0.8.4',
+23 silly publish      'node-dir': '^0.1.16',
+23 silly publish      'node.extend': '^1.1.5',
+23 silly publish      path: '^0.12.7',
+23 silly publish      pkcs11js: '^1.0.6',
+23 silly publish      pkijs: '^1.3.19',
+23 silly publish      'promise-settle': '^0.3.0',
+23 silly publish      sjcl: '1.0.3',
+23 silly publish      'sjcl-codec': '0.1.1',
+23 silly publish      sleep: '^3.0.1',
+23 silly publish      'stream-buffers': '3.0.1',
+23 silly publish      'tar-stream': '1.5.2',
+23 silly publish      url: '^0.11.0',
+23 silly publish      util: '^0.10.3',
+23 silly publish      winston: '^2.2.0' },
+23 silly publish   description: 'This package encapsulates the APIs to interact with Peers and Orderers of the Fabric network to install and instantiate chaincodes, send transaction invocations and perform chaincode queries. There is a separate package that interacts with the Fabric memb',
+23 silly publish   devDependencies: {},
+23 silly publish   directories: {},
+23 silly publish   dist:
+23 silly publish    { shasum: '333eeba3e48a0b7977a6f833e08ad4886d19a613',
+23 silly publish      tarball: 'https://registry.npmjs.org/fabric-client/-/fabric-client-1.0.0-alpha.1.tgz' },
+23 silly publish   'engine-strict': true,
+23 silly publish   engineStrict: true,
+23 silly publish   engines: { node: '>=6.9.0 <7.0', npm: '>=3.10.0' },
+23 silly publish   license: 'Apache-2.0',
+23 silly publish   licenses:
+23 silly publish    [ { type: 'Apache-2.0',
+23 silly publish        url: 'https://github.com/hyperledger/fabric/blob/master/LICENSE' } ],
+23 silly publish   main: 'index.js',
+23 silly publish   maintainers:
+23 silly publish    [ { name: 'hyperledger-ci',
+23 silly publish        email: 'collab-it+hyp+ci@linuxfoundation.org' },
+23 silly publish      { name: 'jimthematrix', email: 'jim_the_matrix@hotmail.com' } ],
+23 silly publish   name: 'fabric-client',
+23 silly publish   optionalDependencies: {},
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   repository:
+23 silly publish    { type: 'gerrit',
+23 silly publish      url: 'http://gerrit.hyperledger.org/r/fabric-sdk-node' },
+23 silly publish   scripts: { test: 'node test/unit/headless-tests.js' },
+23 silly publish   version: '1.0.0-alpha.1' }
+24 info lifecycle fabric-client@1.0.0-alpha.1~prepublishOnly: fabric-client@1.0.0-alpha.1
+25 silly lifecycle fabric-client@1.0.0-alpha.1~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name fabric-client
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'fabric-client',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'fabric-client',
+30 silly mapToRegistry   name: 'fabric-client',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/fabric-client
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/asingh/.npm/fabric-client/1.0.0-alpha.1/package.tgz
+34 verbose request uri https://registry.npmjs.org/fabric-client
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 11:30:33 AM
+37 verbose request using bearer token for auth
+38 verbose request id 664b1831f160e6d8
+39 http request PUT https://registry.npmjs.org/fabric-client
+40 http 403 https://registry.npmjs.org/fabric-client
+41 verbose headers { 'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '107',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Thu, 04 May 2017 07:30:35 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-fjr7921-FJR',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1493883034.551614,VS0,VE1949',
+41 verbose headers   vary: 'Accept-Encoding' }
+42 verbose request invalidating /Users/asingh/.npm/registry.npmjs.org/fabric-client on PUT
+43 error publish Failed PUT 403
+44 verbose stack Error: you do not have permission to publish "fabric-client". Are you logged in as the correct user? : fabric-client
+44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+44 verbose stack     at emitOne (events.js:96:13)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+45 verbose statusCode 403
+46 verbose pkgid fabric-client
+47 verbose cwd /Users/asingh/go/src/github.com/StableDst/api-server/node_modules/fabric-client
+48 error Darwin 15.5.0
+49 error argv "/usr/local/Cellar/node@6/6.10.0_1/bin/node" "/usr/local/bin/npm" "publish"
+50 error node v6.10.0
+51 error npm  v4.1.2
+52 error code E403
+53 error you do not have permission to publish "fabric-client". Are you logged in as the correct user? : fabric-client
+54 error If you need help, you may report this error at:
+54 error     <https://github.com/npm/npm/issues>
+55 verbose exit [ 1, true ]
